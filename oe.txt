@@ -1,0 +1,31 @@
+What is MHD Generator?
+Definition: A magnetohydrodynamic (MHD) generator is a device that generates power directly by interacting with a rapidly moving stream of fluid, usually ionized gases/plasma. MHD devices transform heat or kinetic energy into electrical energy.
+ 
+Principle of MHD Generator:
+MHD generator is commonly referred to as a fluid dynamo, which is compared to a mechanical dynamo – a metal conductor when passed through a magnetic field generates a current in a conductor.
+However, in the MHD generator, conducting fluid is used instead of a metal conductor. As the conducting fluid (conductor) moves through the magnetic field, it produces an electrical field perpendicular to the magnetic field. This process of electric power generation through MHD is based on the principle of Faraday’s law of electromagnetic induction.
+
+When the conducting fluid flows through a magnetic field, a voltage is generated across its fluid and it is perpendicular to both the fluid flow and the magnetic field as per Fleming’s Right Hand Rule.
+
+Applying Fleming’s Right-Hand Rule to the MHD generator, a conducting fluid is passed through a magnetic field ‘B’. The conducting fluid has free charge particles moving with a velocity ‘v’.
+
+The effects of a charged particle moving with a velocity ‘v’ in a constant magnetic field are given by the Lorentz Force Law. The simplest form of this description is given below by the vector equation.
+
+F = Q (v x B)
+
+Where,
+
+‘F’ is the force acting on the particle.
+‘Q’ is the charge of the particle,
+‘v’ is the velocity of the particle, and
+‘B’ is the magnetic field.
+
+The vector ‘F’ is perpendicular to both ‘v’ and ‘B’ according to the right-hand rule.
+
+MHD Generator Working :
+The MHD electricity generation diagram is shown below with possible system modules. To begin with, the MHD generator requires a gas source of high temperature, which can be either a coolant of a nuclear reactor or can be high-temperature combustion gases produced from coal.
+ 
+diagram
+
+As the gas and fuel pass through the expansion nozzle, it decreases the pressure of the gas and increases the speed of fluid/plasma through the MHD duct, and increasing the overall efficiency of the power output. The exhaust heat produced from the fluid through the duct is the DC power. It used to run the compressor to boost the fuel combustion rate.
+

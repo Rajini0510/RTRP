@@ -1,0 +1,113 @@
+<style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0e0e0e;
+      color: #fff;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      color: #00ffcc;
+      font-size: 28px;
+    }
+    header img {
+  	height: 50px;
+  	margin-right: 20px;
+	}
+
+    nav a {
+      color: #ffffff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #00ffcc;
+    }
+
+    .hero {
+      background-color:black;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      color: #fff;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+    }
+
+    .section {
+      padding: 50px 40px;
+    }
+
+    .section h3 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #00ffcc;
+    }
+
+    .games-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .game-card {
+      background: #1a1a1a;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+      transition: transform 0.3s;
+    }
+
+    .game-card:hover {
+      transform: scale(1.05);
+    }
+
+    .game-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .game-card p {
+      padding: 15px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      color: #999;
+    }
+
+    .btn {
+      background-color: #00ffcc;
+      color: #000;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background-color: #00ddb0;
+    }
+  </style>

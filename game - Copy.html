@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game Options</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1e1e2f;
+      color: #fff;
+    }
+
+    header {
+      background-color: #2c2c3e;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .games-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .game-card {
+      background-color: #2f2f4f;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .game-card:hover {
+      transform: scale(1.05);
+      background-color: #3e3e5e;
+    }
+    .game-card img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .game-card h3 {
+      margin: 15px 0 10px;
+    }
+
+    .game-card p {
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+
+    footer {
+      background-color: #2c2c3e;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎮 Choose Your Game</h1>
+  </header>
+
+  <section class="games-grid">
+
+    <div class="game-card" onclick="location.href='snake.html'">
+<img src="snake.jpg" alt="Header Image">
+
+      <h3>SNAKE</h3>
+      <p></p>
+    </div>
+<div class="game-card" onclick="location.href='minesweeper.html'">
+<img src="minesweeper.jpg" alt="Header Image">
+
+      <h3>MINESWEEPER</h3>
+      <p></p>
+    </div>
+<div class="game-card" onclick="location.href='action.html'">
+<img src="sudoko.jpg" alt="Header Image">
+<h3>SUDOKO</h3>
+      <p></p>
+    </div>
+
+    <div class="game-card" onclick="location.href='rock.html'">
+<img src="rockpaper.jpg" alt="Header Image">
+<h3>ROCK PAPER SCISSORS</h3>
+      <p></p>
+    </div>
+ <div class="game-card" onclick="location.href='xo.html'">
+<img src="xoxogame.jpg" alt="Header Image">
+<h3>XOXO</h3>
+      <p></p>
+    </div>
+
+     </section>
+
+  <footer>
+    &copy; 2025 GameGalaxy. All rights reserved.
+  </footer>
+
+</body>
+</html>
